@@ -1,0 +1,7 @@
+number= int(input("Enter a number less than 20. >>> "))
+
+if number > 20:
+    print("too high")
+
+else:
+    print("You followed instructions"

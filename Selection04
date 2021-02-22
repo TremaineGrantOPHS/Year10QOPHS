@@ -1,0 +1,7 @@
+Colour = str(input("what is your favourate colour? >>>> ")).lower()
+
+if Colour == "black":
+    print("i like black too ")
+
+else:
+    print("i dont like",colour,",",colour,"is trash")

@@ -1,0 +1,10 @@
+number = int(input("please give me a number >>>> "))
+holdsfirstnum = number
+total = holdsfirstnum
+
+value = "y"
+
+while value == "y":
+    number2 = int(input("Enter a second number "))
+    total = number + number2
+    value = str(input("add another number? y/n ")).lower()

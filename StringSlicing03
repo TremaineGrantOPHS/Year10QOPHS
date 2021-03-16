@@ -1,0 +1,4 @@
+surname = str(input("Enter your name in lower case"))
+othername = str(input("Enter your last name in lower case"))
+
+print(surname + othername)

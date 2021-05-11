@@ -1,0 +1,19 @@
+numbers = []
+
+numbers.append(input("give me a number  "))
+print(numbers)
+
+numbers.append(input("give me a number "))
+print(numbers)
+
+numbers.append(input("give me a number  "))
+print(numbers)
+
+delete = input("do you still want the last number you input? yes or no  ")
+
+if delete == "no":
+    del numbers[2]
+    print(numbers)
+
+else:
+    print(numbers)

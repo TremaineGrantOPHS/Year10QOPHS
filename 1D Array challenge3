@@ -1,0 +1,27 @@
+
+guests = []
+
+guestsone = str(input("give me someone you want to invite to the party >>> "))
+guestsTwo = str(input("give me someone you want to invite to the party >>> "))
+guestsThree = str(input("give me someone you want to invite to the party >>> "))
+
+guests.append(guestsone)
+guests.append(guestsTwo)
+guests.append(guestsThree)
+
+
+another = str(input("do you want to invite another person? yes or no >>> "))
+
+while another == "yes":
+
+    newguests = str(input("who do you want to invite? type no to stop. >>>> "))
+
+    if newguests != "no":
+        guests.append(newguests)
+
+    elif newguests == "no":
+         another = "no"
+
+guestsnum = len(guests)
+
+print("you have invited",guestsnum,"guests")

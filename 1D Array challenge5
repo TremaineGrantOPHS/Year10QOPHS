@@ -1,0 +1,21 @@
+food = []
+
+food.append(input("name a food "))
+food.append(input("name a food "))
+food.append(input("name a food "))
+
+print(food)
+
+delete = int(input("what food do you want to delete? 1, 2 or 3  "))
+
+if delete == 3:
+    del food[2]
+    print(food)
+
+elif delete == 2:
+    del food[1]
+    print(food)
+
+elif delete == 1:
+    del food[0]
+    print(food)

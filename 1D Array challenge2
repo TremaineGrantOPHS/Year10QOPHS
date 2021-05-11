@@ -1,0 +1,15 @@
+cars = [] 
+sentry = True
+
+while sentry == True:
+    brand = (input("give me a car brand, press x to exit ")).lower()
+
+    if brand == "x":
+        print("exiting...")
+        sentry = False
+
+    elif brand != "x":
+        cars.append(brand)
+
+
+print(" the list is",cars)

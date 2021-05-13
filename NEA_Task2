@@ -1,0 +1,14 @@
+print("welcome message")
+
+email = input("enter email adress >>>> ")
+skill = ("Enter skill level - E for expert or C for casual : >>> ").lower()
+country = input("Enter country UK/US/AU >>> ").upper()
+
+if country == "UK":
+    print("the uk fee is 30 GBP")
+    
+elif country == "US":
+    print("the us fee is 45.0 us $")
+    
+elif country == "AU":
+    print("the au fee is 60 AUD"

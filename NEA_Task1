@@ -13,7 +13,7 @@ print("skill level = ", skill)
 
 correct= input("please confirm these details Y for yes N for no >>>> ").upper()
 
-if correct == "y":
+if correct == "Y":
     print ("many thanks")
     
 else:

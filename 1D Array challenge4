@@ -5,10 +5,10 @@ print(TVpro[1])
 print(TVpro[2])
 print(TVpro[3])
 
-another = input("do you want another show inputted? y or n >>> ")
+another = input("do you want another show inputted? y or n >>> ").lower()
 
 while another == "y":
-    newshow = input("name another show, press n to exit >>> ")
+    newshow = input("name another show, press n to exit >>> ").lower()
 
     if newshow != "n":
         TVpro.append(newshow)

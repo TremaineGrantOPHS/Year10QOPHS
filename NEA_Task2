@@ -8,7 +8,7 @@ if country == "UK":
     print("the uk fee is 30 GBP")
     
 elif country == "US":
-    print("the us fee is 45.0 us $")
+    print("the us fee is 45.0 US $")
     
 elif country == "AU":
-    print("the au fee is 60 AUD"
+    print("the au fee is 60 AUD")

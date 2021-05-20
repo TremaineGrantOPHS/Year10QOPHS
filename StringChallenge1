@@ -1,0 +1,3 @@
+name = "Trey"
+thing = name.find("y")
+print(thing)

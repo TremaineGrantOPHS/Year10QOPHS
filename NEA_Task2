@@ -1,6 +1,6 @@
 print("welcome message")
 
-email = input("enter email adDress >>>> ")
+email = input("enter email address >>>> ")
 skill = ("Enter skill level - E for expert or C for casual : >>> ").lower()
 country = input("Enter country UK/US/AU >>> ").upper()
 

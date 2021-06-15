@@ -1,0 +1,28 @@
+print("WELLCOME TO MAD-LIB")
+print("Please answer the following questions")
+print("")
+
+
+location1 = input ("Enter a location>>>")
+adjective1 = input("Enter an adjective e.g.Small,Broke,>>>")
+nationality1 = input("Enter a nationality>>>")
+name1 = input("Enter a name>>>")
+typeOfFood1 = input("Enter a type of food>>>")
+country1 = input("Enter a name of a country>>>")
+adjective2 = input("Enter an adjective>>>")
+name2 = input("Enter a name>>>")
+typeOfFood2 = input("Enter a type of food>>>")
+country2 = input("Enter a name of a country>>>")
+
+
+print("Here's a short story I made for you")
+print(name1,"was a",adjective1,"who migrated from",country1)
+print(name1,"had built a relationship with",name2)
+print("But then",name2,"betrayed",name1,"in the most unthinkable way...")
+print("One day",name2,"had ordered",typeOfFood1,"with pineapple.")
+print("Because of this",name1,"decided to visit",country2,"to work on a virus to slowly kill",name2)
+print("During this time",adjective2,name2,"had somehow become immortal.")
+print("Okay this is just dumb")
+print("Suddenly out of no where",name1,name2,"are face to face")
+print("Apparently teleporting is now normal in",location1,"since no one has a reaction .")
+print("This is a dumb story im not reading the rest")
